@@ -1,9 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Button } from 'reactstrap';
-
-
 
 function App() {
   return (
@@ -20,9 +17,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-          <Button color="red">Danger!</Button>
         </a>
-        
       </header>
     </div>
   );
