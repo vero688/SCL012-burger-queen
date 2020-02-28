@@ -10,8 +10,15 @@
   }
 }
 
+
+.Log{
+  border-radius: 50%;
+  margin-right: 1rem;
+  width: 120px;
+  height: 120px;
+}
 .App-header {
-  background-color: #0854eb;
+  background-image: url(./imagenes/WhatsApp\ Image\ 2020-02-25\ at\ 15.50_edited.jpg);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -33,3 +40,4 @@
     transform: rotate(360deg);
   }
 }
+
