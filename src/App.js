@@ -1,31 +1,14 @@
 import React from 'react';
 import './App.css';
-import Menu from '../components/menu';
-import Button from './components/navegation.js';
-
-
-
-
+import Button from './button.js';
+import Desayunos from './Desayuno.js';
 function App() {
   return (
-    
     <div className='App'>
       <Button />
-
-  </div>
-  
-  );
-}
-
-function Men() {
-  return (
+      <Desayunos/>
     
-    <div className='menuLis'>
-      <Menu />
-
   </div>
-  
   );
 }
-
-export default {App,Men};
+export default App;
