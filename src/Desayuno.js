@@ -3,6 +3,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import {desayuno, comidas} from './menu.json';
+
 console.log(desayuno);
 
 export class Desayunos extends Component {
@@ -35,7 +36,6 @@ constructor(){
         <div className='row mt-1'>
         {menus}
         </div>
-
         
       </div>
     );
@@ -79,4 +79,5 @@ export class Comidas extends Component {
     }
   }
 
-// export default Desayunos;
+export default Desayunos;
+
