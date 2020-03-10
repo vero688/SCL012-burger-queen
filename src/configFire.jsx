@@ -1,8 +1,6 @@
 import firebase from 'firebase/app';
 import 'firebase/firestore';
-// import firebase from 'firebase/app' 
-// import 'firebase/firestore'
-//npm install -g firebase-tools
+// Llave de firebase para poder acceder a la base de datos que tenemos en ella 
 const firebaseConfig = {
   apiKey: "AIzaSyApeD3RcmaSDiguwNje4koampuoFwm9RII",
   authDomain: "burqer-queen1.firebaseapp.com",
@@ -13,6 +11,7 @@ const firebaseConfig = {
   appId: "1:524330997269:web:1cdfb715a1fcaf5f49601c",
   measurementId: "G-BVLQSW8VWQ"
 };
+
 firebase.initializeApp(firebaseConfig);
-let db= firebase.firestore();
-export default db;
+ let db= firebase.firestore(); // Conectamos firebase con firestore
+ export default db
