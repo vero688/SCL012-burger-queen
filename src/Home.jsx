@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+
+// Botones del home
 class Home extends Component {
  render() {
     return(

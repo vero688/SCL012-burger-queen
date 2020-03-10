@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 
+// Componente que contiene la caja donde iran los pedidos 
 class Order extends Component {
   render(){
     return(
