@@ -19,6 +19,7 @@ export default function App() {
       <div className="container mt-4">
         <div className="row ml-4">
           <Link to = "/" className = "text-white"><Home/></Link>
+          <hr></hr>
           {/* Creamos la ruta y le pasamos el componente del boton que nos mostrará cada Menú  */}
         <Link to="/desayunos" className="text-white "><BreakfastButton/></Link>
         <Link to="/almuerzos" className="text-white "><LunchButton/></Link>
