@@ -6,9 +6,18 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+
+  
+ }
