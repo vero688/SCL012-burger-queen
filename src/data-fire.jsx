@@ -8,6 +8,7 @@ import db from './configFire.jsx';
     this.state = {
       breakfastMenu: [] // Array vacío para poder más delante actualizarlo con los datos de firebase
     }}
+    
   
   componentDidMount(){
     db.collection('MenuDesayuno').get().then((querySnapshot) => { // Entramos a los datos de firebase
@@ -27,7 +28,7 @@ import db from './configFire.jsx';
 
                 <div className="mt-4">
 
-                <button className="btn btn-danger btn-lg" >{item.nombre}{item.precio}</button>
+                <button  className="btn btn-danger btn-lg">{item.nombre}{item.precio}</button>
 
             </div>
               </div>

@@ -37,6 +37,8 @@ export default function App() {
 
           <Route path="/desayunos">
           <BreakfastMenu/>
+          <hr></hr>
+          <hr></hr>
           <Order/>
           </Route>
 

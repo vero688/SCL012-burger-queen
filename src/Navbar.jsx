@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './imagenes/ham.jpg';
 import './Navbar.css';
 
+
 class Navbar extends React.Component{
     render(){
       return <div className="Navbar">
