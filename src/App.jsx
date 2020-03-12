@@ -5,7 +5,7 @@ import {
   Route,
   Link
 } from "react-router-dom"; // Importamos los componentes de la libreria con los que haremos el router
-import {BreakfastMenu, LunchMenu} from './data-fire.jsx'; // Componentes que nos mostraran la data de firebase 
+import {BreakfastMenu, LunchMenu} from './data-fire.jsx';  // Componentes que nos mostraran la data de firebase 
 import {BreakfastButton,LunchButton, KitchenButton} from './button.jsx'; //  Botones que muestran datos de firebase
 import Navbar from './Navbar.jsx';
 import Order from './order.jsx';
