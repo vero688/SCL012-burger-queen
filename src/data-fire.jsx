@@ -19,7 +19,7 @@ import db from './configFire.jsx';
   }
   render(){
     return (
-      <div>
+      <div className="col">
          {/* Hacemos un map al array con sus nuevos datos y mostramos en boton */}
         {this.state.breakfastMenu.map((item, key) =>{ 
             return (
@@ -62,7 +62,7 @@ import db from './configFire.jsx';
 
         {this.state.lunchMenu.map((element, key) =>{
             return (
-              <div key={key} className="row col-md-2">
+              <div key={key} className="row-md-auto">
                 <div className="mt-4">
                 <button className="btn btn-success btn-lg" >{element.nombre}{element.precio}</button>
 

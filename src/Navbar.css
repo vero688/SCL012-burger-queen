@@ -1,14 +1,17 @@
 .Navbar {
   width: 100%;
-  padding: 0.5rem 0;
-  background-color: #1C3643;
+  padding: 1%;
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 }
 
 .Navbar__brand {
   color: #FFFFFF;
-
   display: flex;
   align-items: center;
+  opacity: 0.6;
 }
 
 .Navbar__brand:hover {
@@ -23,3 +26,4 @@
   width: 60px;
   height: 60px;
 }
+
