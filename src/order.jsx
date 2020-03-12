@@ -6,9 +6,6 @@ import "./order.css"
 class Order extends Component {
   state={};
   handleChange = (e)=> {
-    //     console.log({
-    //         name : e.target.name,
-    //         value: e.target.value});
     this.setState({
         [e.target.name]: e.target.value,
 
