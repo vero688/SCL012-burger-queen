@@ -23,3 +23,15 @@ export function LunchButton () {
 </header>
 }
 
+export function KitchenButton () {
+  return <header className='App-header'>
+  <div>
+
+  <button type="button" className="btn btn-primary btn-lg">Cocina</button>
+  
+  </div>
+
+</header>
+}
+
+
