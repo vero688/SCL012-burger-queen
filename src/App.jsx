@@ -20,9 +20,9 @@ export default function App() {
           <hr></hr>
           {/* Creamos la ruta y le pasamos el componente del boton que nos mostrará cada Menú  */}
         <Link to="/desayunos" className="text-white "><BreakfastButton/></Link>
-        <Link to="/almuerzos" className="text-white "><LunchButton/></Link>
-          
+        <Link to="/almuerzos" className="text-white "><LunchButton/></Link> 
           </div>
+          
           {/* Le decimos el componente que tiene que mostrar por cada ruta */}
           <Route exact path ="/">
 
@@ -42,7 +42,7 @@ export default function App() {
           </Route>
 
       </div>
-     
+      
     </Router>
   )
 }
