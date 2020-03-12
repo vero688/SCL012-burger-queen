@@ -1,68 +1,45 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Burguer Queen 🍔
 
-In the project directory, you can run:
+La presente Aplicación fue pensada principalmente para ser la solucion para meseros y chefs que integran un restaurante, con el propósito que puedan compartir la información de cada solicitud de pedido logrando de esta manera una comunicación fluida y eficiente, mejorando así tanto la atención prestada cómo los tiempos de entrega.
 
-### `npm start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+En esta entrega de Burguer Queen, cómo equipo intentamos entregar soluciones fácilmente legibles a los miembros del equipo, por lo cual se presentan a continuación los primeros bocetos de la App. 
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+![Prototipo](src/imagenes/prototipobf.jpg)
 
-### `npm test`
+Posterior a la iteracion realizada con una usuaria, llegamos a la conclusión que debíamos entregar una solución que no requiera tener una cuanta para así poder tener acceso a ella, eficientando así los tiempos de ejecución y entrega de cada pedido. }
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+![Prototipo Alta Fidelidad](src/imagenes/figmaaf.jpg)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Se presenta con ello, nuestro prototipo de alta fidelidad con el cual pudimos comenzar a trabajar en la creación de nuestra solución, la cual responde a la primera historia de usuario:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+"Yo como mesero o mesara debería poder tomar la orden de un cliente para saber fácilmente cuanto cobrar y que la cocina tenga las órdenes de manera inmediata y según cuando van llegando." 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+La definicion de estilos utilizados en la misma, se ideó a partir de la necesidad de entregar a nuestros usuarios la posibilidad de pensar en una mesa donde sea asociada al restaurant, y los colores (rojo y verde) sean intuitivamente asociados a avanzar y/o detenerse. 
+lo cual se puede apreciar de mejor manera en nuestro prototipo de Alta fidelidad, que se encuentra en [Figma](https://www.figma.com/file/RMO74ojjpmtB91lEuPj77r/Untitled?node-id=0%3A1)
 
-### `npm run eject`
+## Planificación ⏳
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Para poder organizar nuestros tiempos como equipo e intentar una mayor respuesta a la completitud del proyecto utilizamos [Trello](https://trello.com/b/0GlcxHDF/burguer-queen).
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Herramientas Utilizadas ⚙
 
-## Learn More
+- HTML5
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- CSS3
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- BOOTSTRAP
 
-### Code Splitting
+- REACTJS
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## Desarrolladoras 👩🏻‍💻👩🏻‍💻👩🏻‍💻
 
-### Analyzing the Bundle Size
+- Camila Rojas S.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+- Verónica Urrutia A. 
 
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- Karen Zúñiga C.  
