@@ -74,7 +74,9 @@ import db from './configFire.jsx';
       console.log('mostrando', this.state.total);
      
     } 
-    
+   
+
+
     componentDidMount(){
       db.collection('MenuAlmuerzo').get().then((element) => {
         const lunch = element.docs.map(doc => doc.data());
