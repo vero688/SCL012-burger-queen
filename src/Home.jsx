@@ -7,13 +7,11 @@ class Home extends Component {
     return(
       <div className="Home">
         <button className="btn btn-success btn-lg text-white">
+         <hr/>
           <Link to ="/cocina" ><KitchenViews/></Link>
         </button>
         {/* <button  type="button" className="btn btn-success btn-lg text-white"> Cocina</button> */}
        
-        <div> <h1>
-           {this.props.firstName} <br/> {this.props.lastName}
-                     </h1></div>
         
     </div>
     

@@ -2,9 +2,9 @@
 .card{
 
   background-color: rgba(15, 15, 15, 0.5);
-  width: 40%;
+  width: 10%;
   position: absolute;
-  right: 20%;
+  right: 40%;
   bottom: 350px;
 }
 
@@ -22,7 +22,7 @@
 
   background-color: rgba(15, 15, 15, 0.5);
   width:40%;
-  right: 10%;
+  right: 60%;
 }
   
 }
