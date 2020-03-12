@@ -8,9 +8,8 @@ import {
 import {BreakfastMenu, LunchMenu} from './data-fire.jsx'; // Componentes que nos mostraran la data de firebase 
 import {BreakfastButton,LunchButton} from './button.jsx'; //  Botones que muestran datos de firebase
 import Navbar from './Navbar.jsx';
-import Home from './Home.jsx';
 import Order from './order.jsx';
-import {KitchenViews} from './kitchen.jsx';
+// import {KitchenViews} from './kitchen.jsx';
 
 export default function App() {
   
@@ -19,8 +18,6 @@ export default function App() {
       <Navbar/>
       <div className="container mt-4">
         <div className="row ml-4">
-          <Link to = "/" className = "text-white"><Home/></Link>
-          <KitchenViews/>
           <hr></hr>
           {/* Creamos la ruta y le pasamos el componente del boton que nos mostrará cada Menú  */}
         <Link to="/desayunos" className="text-white "><BreakfastButton/></Link>

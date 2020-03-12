@@ -16,8 +16,13 @@ code {
 
 
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
+@media screen (min-width: 768px) {
 
-
+  .card{
   
- }
+    background-color: rgba(15, 15, 15, 0.5);
+    
+  }
+    
+  }
+  

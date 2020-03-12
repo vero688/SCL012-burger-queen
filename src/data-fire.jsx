@@ -6,9 +6,21 @@ import db from './configFire.jsx';
   constructor() {
     super();
     this.state = {
-      breakfastMenu: [] // Array vacío para poder más delante actualizarlo con los datos de firebase
+      breakfastMenu: [], // Array vacío para poder más delante actualizarlo con los datos de firebase
+      contador: 0
     }}
-    
+
+
+    handlerClic=(item)=>{
+      console.log("precio:",item);
+      this.setState({
+     [item.target.nombre]: item.target.value,
+     precio: item.precio
+      
+      });
+      console.log("ESTADO:", this.state);
+      
+    }
   
   componentDidMount(){
     db.collection('MenuDesayuno').get().then((querySnapshot) => { // Entramos a los datos de firebase
@@ -20,15 +32,18 @@ import db from './configFire.jsx';
   }
   render(){
     return (
-      <div>
+      <div className="col">
          {/* Hacemos un map al array con sus nuevos datos y mostramos en boton */}
         {this.state.breakfastMenu.map((item, key) =>{ 
             return (
               <div key={key} className=" row col-md-2">
 
-                <div className="mt-4">
+                <div className="mt-4" >
 
-                <button  className="btn btn-danger btn-lg">{item.nombre}{item.precio}</button>
+                <button onClick={this.handlerClic} className="btn btn-danger btn-lg">
+                   {item.nombre}{item.precio}
+                 </button>
+                
 
             </div>
               </div>
@@ -76,7 +91,7 @@ import db from './configFire.jsx';
 
         {this.state.lunchMenu.map((element, key) =>{
             return (
-              <div key={key} className="row col-md-2">
+              <div key={key} className="row-md-auto">
                 <div className="mt-4">
                 <button className="btn btn-success btn-lg" 
                 onClick={this.sumTotal}>{element.nombre}{element.precio}</button>
@@ -90,3 +105,4 @@ import db from './configFire.jsx';
       )
     }
   }
+
