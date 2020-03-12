@@ -57,12 +57,25 @@ import db from './configFire.jsx';
   // Componente que nos muestra la colección Menu Almuerzo que esta en firebase
 
   export class LunchMenu extends Component {
-    constructor(){
-      super();
+    constructor(props){
+      super(props);
       this.state = {
-        lunchMenu: []
+        lunchMenu: [],
+        total : 0
       }
     }
+    sumTotal = (element) => {
+      // let suma =element.precio;
+     
+      this.setState({
+        total : this.state.total + 1
+    
+      });
+      console.log('mostrando', this.state.total);
+     
+    } 
+   
+
 
     componentDidMount(){
       db.collection('MenuAlmuerzo').get().then((element) => {
@@ -80,7 +93,8 @@ import db from './configFire.jsx';
             return (
               <div key={key} className="row-md-auto">
                 <div className="mt-4">
-                <button className="btn btn-success btn-lg" >{element.nombre}{element.precio}</button>
+                <button className="btn btn-success btn-lg" 
+                onClick={this.sumTotal}>{element.nombre}{element.precio}</button>
 
               </div>
                 </div>

@@ -13,6 +13,10 @@ class Navbar extends React.Component{
       <span className="font-weight-light">Burger</span>
       <span className="font-weight-bold">Queen</span>  
       <hr></hr>
+<<<<<<< HEAD
+=======
+      
+>>>>>>> c06d026b9c19c83bf719207ab530b50d7c928c42
   </a>
   <Home/>
   </div>

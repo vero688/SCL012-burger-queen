@@ -9,6 +9,7 @@ import {BreakfastMenu, LunchMenu} from './data-fire.jsx'; // Componentes que nos
 import {BreakfastButton,LunchButton} from './button.jsx'; //  Botones que muestran datos de firebase
 import Navbar from './Navbar.jsx';
 import Order from './order.jsx';
+// import {KitchenViews} from './kitchen.jsx';
 
 export default function App() {
   
